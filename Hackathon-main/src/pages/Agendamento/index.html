@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento - Gotas do Amanhã</title>
+    <link rel="shortcut icon" href="../../assets/icone-gota.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+          <a href="/" class="logo">
+            <img src="../../assets/icone-gota.png" alt="gota vermelha">
+          </a>
+          <button class="hamburger"></button>
+          <ul class="nav-list">
+            <li><a href="../../../index.html">Inicio </a></li>
+            <li><a href="../Sobre/index.html">Sobre </a></li>
+            <li><a href="../Cadastro/index.html">Cadastro</a></li>
+            <li><a href="../Depoimentos/index.html">Depoimentos</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <form action="">
+                <h2>Faça parte do projeto gotas do amanhã e ajude a salvar vidas sendo um voluntario</h2>
+
+                    <div class="infos-pessoais">
+                        <div class="inputs-e-labels">
+                            <label for="">Nome Completo:</label>
+                            <input type="text" id="nome_completo" required>
+
+
+                            <label for="">Data de nascimento:</label>
+                            <input type="date" name="" id="data_nascimento" required>
+                            <p id="paragrafo"></p>
+                        </div>
+                        <div class="imagem-principal-page-forms">
+                            <img src="../../assets/imgPageForms.png" alt="">
+                        </div>
+                        
+                    </div>
+
+                <label for="">Tipo sanguineo: </label>
+                <select name="" id="tipo_sanguineo" required>
+                    <option value="">Selecione seu tipo sanguineo</option>
+                    <option value="O-">O-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                    <option value="B-">B-</option>
+                    <option value="B+">B+</option>
+                    <option value="A-">A-</option>
+                    
+                </select>
+
+                <label for="">Voce possui algum tipo de doença sanguinea? se sim qual(s)?</label>
+                <a href="">para mais infos sobre doenças sanguineas</a>
+                <input type="text" id="possui_doenca" required>
+
+                <label for="">Endereço:</label>
+                <input type="text" id="endereco" required>
+
+                <p id="paragrafo-idadeErro"></p>
+
+                <button id="botao-confirmar">CONFIRMAR</button>
+                <p>ao clicar estou confirmando minha condição de apto para doação de sangue ao projeto gotas de vida</p>
+             </form>
+        </section>
+    </main>
+
+
+    <footer>
+        <section class="section-footer">
+            <div>
+                <ul class="list-icons">
+                    <li class="item-icon">
+                        <img src="../../assets/icon-facebook.png" alt="icone do facebook" />
+                    </li>
+                    <li class="item-icon">
+                        <img src="../../assets/icon-instagram.png" alt="icone do instagram" />
+                    </li>
+                    <li class="item-icon">
+                        <img src="../../assets/icon-twiter.png" alt="icone do twiter" />
+                    </li>
+                </ul>
+            </div>
+
+            <span>@2024 Yuri Robert</span>
+        </section>
+    </footer>
+
+      <script src="./script.js"></script>
+</body>
+</html>
